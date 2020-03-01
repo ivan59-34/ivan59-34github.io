@@ -1,0 +1,359 @@
+body{
+	margin: 0;
+	background-color: #333;
+	padding-top: 100px;
+}
+#top-menu{
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	background-color: #F98AB4;
+	background-image: url(2.jpg);
+	background-size: 100%;
+	box-shadow: 0 0 50px 10px #000 inset;
+	top: 0;
+	z-index: 10000;
+}
+#top-menu-logo{
+	height: 100px;
+	width: 180px;
+	position: absolute;
+	transition-duration: 200ms;
+	transition-property: background-color;
+}
+#top-menu-logo hover{
+    background-color: #a832a8;
+}
+#top-menu-logo-img{
+	height: 100px;
+}
+.top-menu-left-btn{
+	height: 80px;
+	padding: 10px;
+	display: inline-block;
+	position: relative;
+	left: 180px;
+	font-size: 35px;
+	color: #61FF33;
+	transition-duration: 200ms;
+	transition-property: color background-color;
+}
+#top-menu-left a{
+	text-decoration: none;
+	color: #33DDFF;
+}
+.top-menu-left-btn:hover{
+	background-color: rgba(64,64,64,0.5);
+    color: #33DDFF;
+}
+#top-menu-left-btn1{
+	width: 180px;
+}
+#tml-btn1-vec{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 17px;
+	top: 17px;
+	transition-duration: 200ms; 
+	transition-property: transform;
+}
+#top-menu-left-btn1:hover #tml-btn1-vec{
+	transform: rotate(-180deg);
+}
+#tml-btn1-menu{
+	position: absolute;
+	width: 250px;
+	top: 100%;
+	height: 0;
+	background-color: #222;
+	left: 0;
+	overflow: hidden;
+}
+#top-menu-left-btn1:hover #tml-btn1-menu{
+	height: 200px;
+}
+#tml-btn1-menu-field{
+	height: 30px;
+	padding: 10px;
+	font-size: 25px;
+	color: #33DDFF;
+}
+.tml-btn1-menu-field:hover{
+    background-color: rgba(64,64,64,0.5);
+    color: #fff;
+}
+#box1{
+	width: 100%;
+	position: relative;
+}
+#box1-img{
+	width: 100%;
+}
+#top-menu-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+}
+#top-menu-right a{
+	text-decoration: none;
+}
+.top-menu-right-btn{
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+    height: 30px;
+    color: #33DDFF;
+    transition-duration: 200ms;
+    transition-property: color background-color;
+}
+#top-menu-right-btn1:hover{
+	color: #fff;
+}
+#top-menu-right-btn2:hover{
+	color: #fff;
+}
+#top-menu-right-btn3:hover{
+	color: #fff;
+	background-color: #fff;
+}
+#top-menu-right-btn4:hover{
+	color: #fff;
+}
+#box1-tittle{
+	position: absolute;
+	left: 10px;
+	width: 300px;
+	bottom: 10px;
+	padding-top: 239px;
+	padding-bottom: 60px;
+	height: 40px;
+	font-size: 35px;
+	color: #fff;
+}
+#box1-tittle-img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.pretty-btn{
+	background-color: rgba(62,84,117,0.9);
+	color: rgba(151,205,225,0.9);
+	border: solid rgba(151,205,225,0.9)
+	box-shadow: 0 0 10px rgb(151,205,225)inset;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	height: 30px;
+	font-size: 25px;
+	position: relative;
+	transition-duration: 200ms;
+	transition-property: text-shadow;
+}
+.pretty-btn:hover{
+	text-shadow: 0 0 20px rgb(151,205,225);
+	color: rgb(151,205,225);
+}
+.box1-tittle-btn{
+	bottom: 0;
+	width: 120px;
+	display: inline-block;
+}
+.pretty-btn-line{
+	height: 3px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	background: linear-gradient(90deg,rgba(245,213,236,0.4),rgba(245,213,236,0.2),rgba(245,213,236,0.4));
+	transition-duration: 200px;
+	transition-property: 
+}
+.pretty-btn-line-top{
+	top: 1px;
+}
+.pretty-btn-line-bottom{
+	bottom: -1px;
+}
+.pretty-btn-line-top{
+	top: -1px;
+}
+#box2{
+	position: relative;
+	width: 100%;
+	height: 720px;
+}
+#box2-left{
+	width: 70%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+#box2-right{
+	width: 30%;
+	right: 0;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	background-color: #425df5;	
+}
+.box2-left-title{
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	position: absolute;
+}
+#box2-left-title1{
+	top: 0;
+	left: 0;
+}
+#box2-left-title2{
+	top: 0;
+	left: 50%;
+}
+#box2-left-title3{
+	top: 50%;
+	left: 0;
+}
+#box2-left-title4{
+	top: 50%;
+	left: 50%;
+}
+.box2-left-title-img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	min-width: 100%;
+	min-height: 100%;
+}
+#box2-right li{
+	font-size: 20px;
+	color: #aaa;
+}
+#box2-right li:hover{
+	color: #fff;
+}
+#box2-right a{
+	text-decoration: none;
+}
+.box2-left-title:hover .box2-left-title-img{
+	transform: scale(1.1) translate(-50%,-50%);
+}
+.box2-left-descr{
+	position: absolute;
+	width: 80%;
+	padding: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	font-size: 30px;
+	top: 100%;
+	border-top-right-radius: 40%;
+	border-top: solid #fff 1px;
+	transition-property: transform;
+	transition-duration: 200ms;
+	box-shadow: 0 0 40px #000 inset;
+	text-shadow: 0 0 10px #fff;
+}
+.box2-left-title:hover .box2-left-descr{
+	transform: translateY(-100%);
+	text-align: center;
+}
+.middle{
+	height: 3px;
+	width: 100%;
+	background: linear-gradient(to left,#111,#adf,#111);
+}
+#box3{
+	width: 100%;
+	position: relative;
+	background-color: #111;
+	text-align: center;
+	font-size: 50px;
+	color: #aaa;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#box3-input{
+	font-size: 22px;
+	height: 44px;
+	width: 600px;
+}
+@media(max-width: 1320px){
+	body{
+		padding-top: 100px;: 
+	}
+
+	#top-menu{
+		height: 100px;
+	}
+	#top-menu-right{
+		top: 50px;
+	}
+}
+@media(max-width: 760px){
+	body{
+		padding-top: 50px;
+	}
+	#top-menu{
+		height:50px;
+	}
+	#top-menu-right{
+		top:0px;
+	}
+    #top-menu-left-btn2{
+    	display: none;
+    }
+    #top-menu-left-btn3{
+    	display: none;
+    }
+    #box4{
+    	background-color: #000;
+    	text-align: center;
+    	padding-bottom: 50px;
+    	padding-top: 50px;
+    	color: #aaa;
+    }
+    #box4{
+    	color: #fff;
+    }
+    #top-menu-left-btn4{
+    	display: none;
+    }
+     #top-menu-right-btn2{
+    	display: none;
+    }
+      #top-menu-right-btn3{
+    	display: none;
+    }
+}
+@media(max-width: 610px){
+	 #top-menu-bt1{
+	 	display: none;
+	 }
+	#top-menu-right{
+		font-size: 0;
+	}
+}
+@media(max-width: 490px){
+	body{
+		padding-top: 0;
+	}
+	#top-menu{
+		display: none;
+	}
+}
+#box2-right ul li{
+	font-size: 20px;
+	color: #aaa;
+	transition-duration: 200ms;
+	transition-property: transform;
+}
+#box2-right ul li:hover{
+	color: #fff;
+	transform: translateX(10px);
+}
